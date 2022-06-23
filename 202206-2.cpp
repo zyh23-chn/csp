@@ -3,10 +3,10 @@ using namespace std;
 int main()
 {
     int n, L, S;
-    scanf("%d %d %d", &n, &L, &S);
+    scanf("%d%d%d", &n, &L, &S);
     vector<int> px(n), py(n);
     for (int i = 0; i < n; i++) {
-        scanf("%d %d", &px[i], &py[i]);
+        scanf("%d%d", &px[i], &py[i]);
     }
     vector<int> px1, py1;
     int num = 0;
