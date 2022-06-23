@@ -3,7 +3,7 @@ using namespace std;
 int main()
 {
     int n, L, r, t;
-    scanf("%d %d %d %d", &n, &L, &r, &t);
+    scanf("%d%d%d%d", &n, &L, &r, &t);
     vector<vector<int> > a(n, vector<int>(n));
     for (int i = 0; i < n; i++) {
         for (int j = 0; j < n; j++) {
