@@ -8,7 +8,7 @@ int main(int argc, char** argv)
     for (int i = 0; i < n; i++) {
         scanf("%lf", &pr[i]);
     }
-    vector<vector<double> > dp(1 << n, vector<double>((n - 1) * k + 1));
+    vector<vector<double> > dp(1 << n, vector<double>((n - 1) * k + 2));
     double ans = 0;
     dp[0][0] = 1;
     for (int i = 0; i < (1 << n); i++) {
