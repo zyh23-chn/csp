@@ -1,3 +1,9 @@
+/**
+ * @file 202109-4-1.cpp
+ * @author zyh
+ * @brief Solution 1, 100 points.
+ */
+
 #include <bits/stdc++.h>
 using namespace std;
 int main(int argc, char** argv)
