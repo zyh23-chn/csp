@@ -16,7 +16,7 @@ int main()
         cin >> l >> r;
         a[r].push_back(l);
     }
-    vector<int> a1(n + 1);
+    vector<int> a1(n + 1); // 当前包含某个点的所有区间的左端点的最大值
     int x = 0;
     for (int r1 = 2; r1 <= n; r1++) {
         for (int l1 : a[r1]) {
